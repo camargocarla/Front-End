@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18 - Local Storage</title>
+
+    <script>
+        // Local Storage -> Dados ficam armazenados em cache
+        // Session Storage -> Dados ficam armazenados enqunanto o navegador estiver em funcionamento
+
+        // Salvar informação no local Storage
+        // localStorage.setItem('nome', 'Carla');
+
+        // Exibir valor no local Storage
+        // document.write(localStorage.getItem('nome'));
+
+        // Remover objeto do local Storage
+        // localStorage.removeItem('nome');
+
+        // JSON
+        let pessoas = [
+            {'nome': 'Lucas', 'idade':23},
+            {'nome': 'Tatiana', 'idade':43},
+        ];
+
+        // Adicionar JSON no local Storage
+        localStorage.setItem('vetor', JSON.stringify(pessoas));
+
+        // Extrair JSON do local Storage
+        let obterVetor= localStorage.getItem('vetor');
+        console.table(JSON.parse(obterVetor));
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

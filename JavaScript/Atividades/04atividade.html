@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04</title>
+    
+<!--Peça três notas, faça a média e dependendo da média retorne a situação do aluno. Se a média for 7 ou superior está aprovado, caso contrário reprovado.
+-->
+
+</head>
+
+<script>
+    let nota1 = parseFloat(prompt("Digite a primeira nota"));
+    let nota2 = parseFloat(prompt("Digite a segunda nota"));
+    let nota3 = parseFloat(prompt("Digite a terceira nota"));
+
+    let resultadoMedia = (nota1 + nota2 + nota3) / 3;
+
+    if (resultadoMedia >= 7) {
+        document.write("Você foi aprovado: " + resultadoMedia.toFixed(2), "<br>");
+    } else {
+        document.write("Você foi reprovado: " + resultadoMedia.toFixed(2), "<br>");
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

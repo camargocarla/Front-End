@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - Menu </title>
+
+    <style>
+        /* Customizar todas as tags */
+        * {
+            margin: 0;
+            padding: 0;
+            font: 14px sans-serif;
+        }
+
+        header {
+            background-color: #2c2c2c;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 30px;
+        }
+
+        a {
+            color: #ffffff;
+        }
+
+        select {
+            display: none;
+        }
+
+        @media screen and (max-width:600px) {
+            nav {
+                display: none;
+            }
+
+            select {
+                display: block;
+                width: 200px;
+                margin: 0 auto;
+            }
+
+            header {
+                flex-direction: column;
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Logo</h1>
+        <nav> <!--NAV>A*4-->
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+        </nav>
+
+        <select>
+            <option>Menu</option>
+        </select>
+    </header>
+</body>
+
+</html>

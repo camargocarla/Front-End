@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+</head>
+<body>
+    <h1><strong>Ficha de Cadastro</strong></h1>
+
+        <label for="primeiro_nome">Primeiro nome:</label>
+        <input type="text" id="primeiro_nome" name="primeiro_nome" required><br>
+      
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required><br>
+      
+        <label for="data_nascimento">Data de nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br>
+      
+        <label for="sexo">Sexo:</label>
+        <input type="text" id="sexo" name="sexo" pattern="[MmFf]" maxlength="1" required><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+      
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+      
+        <label for="tipo_sanguineo">Tipo sanguíneo:</label>
+        <input type="text" id="tipo_sanguineo" name="tipo_sanguineo" maxlength="3" required><br>
+      
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required><br>
+      
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required><br>
+      
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required><br>
+      
+        <label for="cep">CEP:</label>
+        <input type="cep" id="cep" name="cep" minlength="8" maxlength="8" required><br>
+      
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" minlength="11" maxlength="11" required><br>
+      
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" minlength="11" maxlength="11" required><br>
+      
+        <label for="como_soube">Como ficou sabendo do HEMOSC?</label>
+        <input type="text" id="como_soube" name="como_soube" required><br>
+      
+        <input type="submit" value="Enviar"><br>
+        
+        <h1><strong>Usuários Cadastrados</strong></h1>    
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Data de Nascimento</th>
+                <th>Sexo</th>
+                <th>E-mail</th>
+                <th>Tipo Sanguíneo</th>
+                <th>Endereço</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>CEP</th>
+                <th>Celular</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>Silva</td>
+                <td>01/01/2021</td>
+                <td>M</td>
+                <td>joao.silva@gmail.com</td>
+                <td>O-</td>
+                <td>Rua das Flores, 123</td>
+                <td>Blumenau</td>
+                <td>Santa Catarina</td>
+                <td>01234-567</td>
+                <td>(47) 1234-5678</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Santos</td>
+                <td>02/01/2021</td>
+                <td>F</td>
+                <td>maria.santos@yahoo.com.br</td>
+                <td>AB+</td>
+                <td>Avenida das Palmeiras, 456</td>
+                <td>Jaraguá do Sul</td>
+                <td>Santa Catarina</td>
+                <td>04567-890</td>
+                <td>(47) 9876-5432</td>                
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Costa</td>
+                <td>03/01/2021</td>
+                <td>M</td>
+                <td>lucas.costa@hotmail.com</td>
+                <td>A+</td>
+                <td>Rua dos Ipês, 789</td>
+                <td>Florianópolis</td>
+                <td>Santa Catarina</td>
+                <td>67890-123</td>
+                <td>(47) 5555-1234</td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>Almeida</td>
+                <td>04/01/2021</td>
+                <td>F</td>
+                <td>juliana.almeida@gmail.com</td>
+                <td>O+</td>
+                <td>Rua das Árvores, 234</td>
+                <td>Criciúma</td>
+                <td>Santa Catarina</td>
+                <td>01234-567</td>
+                <td>(47) 5432-1000</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Rocha</td>
+                <td>05/01/2021</td>
+                <td>M</td>
+                <td>carlos.rocha@yahoo.com.br</td>
+                <td>A-</td>
+                <td>Rua das Pedras, 567</td>
+                <td>Chapecó</td>
+                <td>Santa Catarina</td>
+                <td>04567-890</td>
+                <td>(21) 3333-4567</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Silva</td>
+                <td>01/01/2021</td>
+                <td>M</td>
+                <td>joao.silva@gmail.com</td>
+                <td>O-</td>
+                <td>Rua das Flores, 123</td>
+                <td>Blumenau</td>
+                <td>Santa Catarina</td>
+                <td>01234-567</td>
+                <td>(47) 1234-5678</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Santos</td>
+                <td>02/01/2021</td>
+                <td>F</td>
+                <td>maria.santos@yahoo.com.br</td>
+                <td>AB+</td>
+                <td>Avenida das Palmeiras, 456</td>
+                <td>Jaraguá do Sul</td>
+                <td>Santa Catarina</td>
+                <td>04567-890</td>
+                <td>(47) 9876-5432</td>                
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Costa</td>
+                <td>03/01/2021</td>
+                <td>M</td>
+                <td>lucas.costa@hotmail.com</td>
+                <td>A+</td>
+                <td>Rua dos Ipês, 789</td>
+                <td>Florianópolis</td>
+                <td>Santa Catarina</td>
+                <td>67890-123</td>
+                <td>(47) 5555-1234</td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>Almeida</td>
+                <td>04/01/2021</td>
+                <td>F</td>
+                <td>juliana.almeida@gmail.com</td>
+                <td>O+</td>
+                <td>Rua das Árvores, 234</td>
+                <td>Criciúma</td>
+                <td>Santa Catarina</td>
+                <td>01234-567</td>
+                <td>(47) 5432-1000</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Rocha</td>
+                <td>05/01/2021</td>
+                <td>M</td>
+                <td>carlos.rocha@yahoo.com.br</td>
+                <td>A-</td>
+                <td>Rua das Pedras, 567</td>
+                <td>Chapecó</td>
+                <td>Santa Catarina</td>
+                <td>04567-890</td>
+                <td>(21) 3333-4567</td>
+              </tr>
+            </tbody>
+            <ul>
+                <li>A+</li>
+                <li>A-</li>
+                <li>B+</li>
+                <li>B-</li>
+                <li>AB+</li>
+                <li>AB-</li>
+                <li>O+</li>
+                <li>O-</li>
+            </ul>
+              <h2>Blumenau</h2>
+            <ul>
+                <li>Usuário 1</li>
+                <li>Usuário 5</li>
+            </ul>
+              
+              <h2>Jaraguá do Sul</h2>
+            <ul>
+                <li>Usuário 2</li>
+                <li>Usuário 6</li>
+            </ul>
+              
+              <h2>Florianópolis</h2>
+            <ul>
+                <li>Usuário 3</li>
+                <li>Usuário 7</li>
+            </ul>
+              <h2>Chapecó</h2>
+            <ul>
+                <li>Usuário 5</li>
+                <li>Usuário 10</li>
+            </ul>
+
+            <h1>Óbitos</h1>
+                <label for="nome">Nome do paciente:</label>
+                <input type="text" id="nome" name="nome"><br>
+              
+                <label for="data-nascimento">Data de nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento"><br>
+              
+                <label for="sexo">Sexo:</label>
+                <input type="text" id="sexo" name="sexo" maxlength="1"><br>
+              
+                <label for="data-obito">Data do óbito:</label>
+                <input type="date" id="data-obito" name="data-obito"><br>
+              
+                <label for="tipo-sanguineo">Tipo sanguíneo:</label>
+                <input type="text" id="tipo-sanguineo" name="tipo-sanguineo" maxlength="1"><br>
+              
+                <label for="causa-obito">Causa do óbito:</label>
+                <input type="text" id="causa-obito" name="causa-obito"><br>
+              
+                <input type="submit" value="Enviar">
+              
+</body>
+</html>

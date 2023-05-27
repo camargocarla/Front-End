@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>03 - Flex</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px; /*Remove a margin e padding padrão do htm*/
+        }
+        main{
+            background-color: purple;
+            display: flex;
+            flex-wrap: wrap; /* QUEBRA LINHA */
+            flex-direction: row;
+            height: 645px;
+            justify-content: center; /*alinhar*/
+            align-items: center; /*laterais*/
+        }
+        div{
+            background-color: cadetblue;
+            /* width: 23%; */
+            height: 200px;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <!-- <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div> -->
+    </main>
+</body>
+</html>
