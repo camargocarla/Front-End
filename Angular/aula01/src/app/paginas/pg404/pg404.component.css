@@ -1,0 +1,11 @@
+div{
+    background-image: url('../../../assets/3828537.jpg');
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+
+}

@@ -1,0 +1,25 @@
+{
+  "name": "12projeto",
+  "version": "1.0.0",
+  "description": "Aplicação Node com acesso ao MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "express",
+    "express-handlebars",
+    "bootstrap"
+  ],
+  "author": "Carla Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
