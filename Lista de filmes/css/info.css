@@ -1,0 +1,36 @@
+/* body {
+    overflow-y: hidden;
+} */
+
+.info-container {
+    text-align: center;
+    background-color: #fab961;
+    color: #3f3d56;
+    padding: 20px;
+    margin: 0;
+}
+
+.info-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    max-height: 60vh;
+    background-color: #fab961;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.img-container {
+    text-align: center;
+    background-color: #fab961;
+    padding: 20px;
+}
+
+.img-container img {
+    max-width: 40%;
+    height: auto;
+
+}
